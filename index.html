@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mural Ubatuba Top Team</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css">
+    
+    <style>
+        body { margin: 0; background-color: #000; color: #fff; font-family: 'Cinzel', serif; }
+        
+        header { text-align: center; padding: 40px 20px; border-bottom: 2px solid #d4af37; }
+        
+        /* Ajuste para a sua logo ficar branca/brilhante sobre o fundo preto */
+        .logo-container img {
+            max-height: 150px;
+            filter: invert(1) brightness(2); /* Isso transforma sua logo preta em uma branca brilhante */
+            margin-bottom: 20px;
+        }
+
+        h1 { font-size: 2.5em; letter-spacing: 3px; text-transform: uppercase; color: #d4af37; margin: 0; }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        
+        .gallery-item { cursor: zoom-in; overflow: hidden; aspect-ratio: 1/1; border: 2px solid #d4af37; }
+        .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s; }
+        .gallery-item img:hover { transform: scale(1.08); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <!-- Certifique-se de que a logo está dentro da pasta logo/ com este nome -->
+            <img src="logo/Design sem nome (1).jpg" alt="Logo UTT">
+        </div>
+        <h1>Ubatuba Top Team</h1>
+    </header>
+
+    <div class="gallery">
+        <!-- Exemplo: adicione suas fotos aqui -->
+        <a href="img/foto1.jpg" class="gallery-item glightbox">
+            <img src="img/foto1.jpg" alt="Treino UTT">
+        </a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({ loop: true });
+    </script>
+</body>
+</html>
