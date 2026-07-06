@@ -9,15 +9,17 @@
     <style>
         body { margin: 0; background-color: #000; color: #fff; font-family: 'Cinzel', serif; }
         
-        header { text-align: center; padding: 40px 20px; border-bottom: 2px solid #d4af37; }
-        
-        .logo-container img {
-            max-height: 150px;
-            filter: invert(1) brightness(2);
-            margin-bottom: 20px;
+        header {
+            width: 100%;
+            padding: 0;
+            border-bottom: 2px solid #d4af37;
         }
 
-        h1 { font-size: 2.5em; letter-spacing: 3px; text-transform: uppercase; color: #d4af37; margin: 0; }
+        .header-image {
+            width: 100%;
+            display: block;
+        }
+
         h2 { text-align: center; color: #d4af37; }
         
         .gallery {
@@ -50,15 +52,13 @@
 <body>
 
     <header>
-        <div class="logo-container">
-            <img src="logo/logoutt.png" alt="Logo UTT">
-        </div>
-        <h1>Ubatuba Top Team</h1>
+        <img src="logo/Cabecalho.png" alt="Ubatuba Top Team Header" class="header-image">
     </header>
 
     <h2>Fotos mais recentes</h2>
     <div class="gallery" id="latest-gallery">
         <!-- Novas fotos serão adicionadas aqui -->
+        <p style="text-align: center; width: 100%;">Ainda não há fotos recentes. Volte em breve!</p>
     </div>
 
     <button class="archive-button" onclick="toggleGallery('gallery-02-07-2026')">Ver fotos de 02/07/2026</button>
