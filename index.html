@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mural Ubatuba Top Team</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css">
+    
+    <style>
+        body { margin: 0; background-color: #000; color: #fff; font-family: 'Cinzel', serif; }
+        
+        header { text-align: center; padding: 40px 20px; border-bottom: 2px solid #d4af37; }
+        
+        .logo-container img {
+            max-height: 150px;
+            filter: invert(1) brightness(2);
+            margin-bottom: 20px;
+        }
+
+        h1 { font-size: 2.5em; letter-spacing: 3px; text-transform: uppercase; color: #d4af37; margin: 0; }
+        h2 { text-align: center; color: #d4af37; }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        
+        .gallery-item { cursor: zoom-in; overflow: hidden; aspect-ratio: 1/1; border: 2px solid #d4af37; }
+        .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s; }
+        .gallery-item img:hover { transform: scale(1.08); }
+
+        .hidden-gallery { display: none; }
+
+        .archive-button {
+            background-color: #d4af37;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            margin: 20px auto;
+            cursor: pointer;
+            font-family: 'Cinzel', serif;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="logo/logoutt.png" alt="Logo UTT">
+        </div>
+        <h1>Ubatuba Top Team</h1>
+    </header>
+
+    <h2>Fotos mais recentes</h2>
+    <div class="gallery" id="latest-gallery">
+        <!-- Novas fotos serão adicionadas aqui -->
+    </div>
+
+    <button class="archive-button" onclick="toggleGallery('gallery-02-07-2026')">Ver fotos de 02/07/2026</button>
+
+    <div id="gallery-02-07-2026" class="hidden-gallery">
+        <h2>Fotos de 02/07/2026</h2>
+        <div class="gallery">
+            <a href="img/02-07-2026/Utt01 (1).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (1).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (10).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (10).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (100).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (100).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (101).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (101).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (102).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (102).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (103).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (103).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (104).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (104).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (105).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (105).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (106).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (106).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (107).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (107).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (108).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (108).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (109).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (109).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (11).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (11).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (110).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (110).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (111).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (111).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (112).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (112).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (113).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (113).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (114).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (114).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (115).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (115).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (116).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (116).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (117).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (117).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (118).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (118).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (119).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (119).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (12).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (12).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (120).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (120).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (121).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (121).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (122).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (122).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (123).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (123).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (124).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (124).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (13).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (13).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (14).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (14).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (15).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (15).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (16).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (16).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (17).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (17).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (18).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (18).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (19).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (19).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (2).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (2).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (20).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (20).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (21).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (21).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (22).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (22).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (23).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (23).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (24).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (24).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (25).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (25).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (26).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (26).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (27).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (27).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (28).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (28).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (29).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (29).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (3).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (3).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (30).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (30).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (31).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (31).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (32).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (32).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (33).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (33).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (34).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (34).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (35).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (35).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (36).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (36).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (37).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (37).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (38).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (38).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (39).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (39).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (4).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (4).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (40).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (40).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (41).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (41).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (42).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (42).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (43).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (43).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (44).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (44).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (45).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (45).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (46).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (46).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (47).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (47).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (48).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (48).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (49).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (49).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (5).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (5).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (50).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (50).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (51).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (51).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (52).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (52).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (53).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (53).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (54).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (54).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (55).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (55).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (56).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (56).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (57).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (57).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (58).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (58).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (59).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (59).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (6).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (6).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (60).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (60).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (61).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (61).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (62).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (62).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (63).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (63).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (64).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (64).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (65).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (65).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (66).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (66).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (67).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (67).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (68).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (68).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (69).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (69).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (7).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (7).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (70).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (70).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (71).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (71).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (72).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (72).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (73).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (73).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (74).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (74).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (75).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (75).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (76).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (76).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (77).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (77).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (78).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (78).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (79).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (79).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (8).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (8).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (80).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (80).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (81).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (81).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (82).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (82).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (83).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (83).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (84).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (84).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (85).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (85).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (86).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (86).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (87).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (87).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (88).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (88).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (89).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (89).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (9).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (9).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (90).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (90).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (91).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (91).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (92).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (92).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (93).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (93).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (94).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (94).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (95).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (95).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (96).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (96).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (97).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (97).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (98).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (98).JPG" alt="Treino UTT"></a>
+            <a href="img/02-07-2026/Utt01 (99).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (99).JPG" alt="Treino UTT"></a>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({ loop: true });
+
+        function toggleGallery(galleryId) {
+            const gallery = document.getElementById(galleryId);
+            gallery.classList.toggle('hidden-gallery');
+        }
+    </script>
+</body>
+</html>
