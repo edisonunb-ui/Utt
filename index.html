@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -24,11 +25,19 @@
         
         .gallery {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 20px;
-            padding: 40px 20px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            padding: 10px;
             max-width: 1200px;
             margin: auto;
+        }
+
+        @media (min-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                gap: 20px;
+                padding: 40px 20px;
+            }
         }
         
         .gallery-item { cursor: zoom-in; overflow: hidden; aspect-ratio: 1/1; border: 2px solid #d4af37; }
@@ -63,7 +72,7 @@
 <body>
 
     <header>
-        <img src="logo/Cabecalho.png" alt="Ubatuba Top Team Header" class="header-image">
+        <img src="logo/cabecalho.png" alt="Ubatuba Top Team Header" class="header-image">
     </header>
 
     <div class="archive-nav">
