@@ -80,7 +80,7 @@
         <p style="text-align: center; width: 100%;">Ainda não há fotos recentes. Volte em breve!</p>
     </div>
 
-    <div id="gallery-02-07-2026" class="gallery hidden-gallery">
+    <div id="gallery-02-07-2026" class="hidden-gallery">
         <h2>Fotos de 02/07/2026</h2>
         <div class="gallery">
             <a href="img/02-07-2026/Utt01 (1).JPG" class="gallery-item glightbox"><img src="img/02-07-2026/Utt01 (1).JPG" alt="Treino UTT"></a>
@@ -213,7 +213,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
     <script>
         const lightbox = GLightbox({ loop: true });
-        const allGalleries = document.querySelectorAll('.hidden-gallery');
+        const allGalleries = document.querySelectorAll('#gallery-02-07-2026'); // Adjusted to select the specific gallery container
 
         function showSelectedGallery() {
             const select = document.getElementById('archive-select');
