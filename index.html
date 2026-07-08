@@ -71,9 +71,7 @@
 </head>
 <body>
 
-    <header>
-        <img src="logo/cabecalho.png" alt="Ubatuba Top Team Header" class="header-image">
-    </header>
+    <img src="logo/painel.png" alt="Ubatuba Top Team Header" style="width: 100%; display: block;">
 
     <div class="archive-nav">
         <select id="archive-select" class="archive-select" onchange="showSelectedGallery()">
@@ -229,7 +227,7 @@
             const selectedValue = select.value;
 
             // Hide all archive galleries first
-            allGalleries.forEach(gallery => {
+            allGallies.forEach(gallery => {
                 if (!gallery.classList.contains('hidden-gallery')) {
                     gallery.classList.add('hidden-gallery');
                 }
